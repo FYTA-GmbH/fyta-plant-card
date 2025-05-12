@@ -564,7 +564,7 @@ class FytaPlantCard extends HTMLElement {
         width: calc(100% - 120px);
         margin-top: 8px;
         text-transform: capitalize;
-        display: block;
+        display: inline-block;
         cursor: pointer;
       }
 
