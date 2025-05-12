@@ -563,7 +563,8 @@ class FytaPlantCard extends HTMLElement {
         font-weight: bold;
         width: calc(100% - 120px);
         margin-top: 8px;
-        text-transform: capitalize;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
         display: inline-block;
         cursor: pointer;
       }
